@@ -22,20 +22,19 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 theme = SubResource("Theme_hj160")
 script = ExtResource("1_n7ugf")
-jam_title = "Gamejam"
+jam_title = "GGJUA 2024"
+year = 2024
 month = 1
-day = 9
-hour = 14
+day = 28
+hour = 15
 minute = 0
-show_time_units = false
 
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
 layout_mode = 2
 
 [node name="TitleLabel" type="Label" parent="HBoxContainer"]
 layout_mode = 2
-text = "Title"
+text = "Gamejam"
 
 [node name="CountdownLabel" type="Label" parent="HBoxContainer"]
 layout_mode = 2
-text = "10:00:00"
